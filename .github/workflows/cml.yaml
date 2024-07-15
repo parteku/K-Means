@@ -28,6 +28,6 @@ jobs:
       with:
         name: clusters-plot
         path: clusters_plot.png
-      - name: Finalize
+    - name: Finalize
         run:
-          echo "Clustering completed successfully."
+        echo "Clustering completed successfully."
